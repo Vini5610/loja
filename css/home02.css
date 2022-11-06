@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+}
+
+nav{
+    background-color: orangered;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin: auto 10px;
+}
+
+a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+
+#desconto{
+    border: 2px solid rgb(38, 0, 252);
+    padding: 10px;
+    border-radius: 30px;
+}
+#desconto:hover{
+    background-color: rebeccapurple;
+    color: rgb(255, 255, 255);
+}
+#logo {
+    height: 75px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #title{
+    flex-direction: column;
+    line-height: 10px;
+ }
+ li {
+    display: block;
+ }
+
+ h1{
+    font-weight: 200;
+ }
+ 
+ main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px ;
+ }
+
+ span{
+    color: rgb(132,13,201);
+ }
+
+ p{
+    line-height: 20px;
+    max-width: 500px;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+ }
+ form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+ }
+
+ form [type="submit"]:hover{
+    cursor: pointer;
+ }
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+h6 {
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+h3 {
+    margin-top: 200px;
+    margin-left: 550px;
+    margin-right: 50;
+}
