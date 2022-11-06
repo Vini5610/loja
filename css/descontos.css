@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    background-color: orangered;
+    display: flex;
+    
+}
+
+* {
+    margin: 0px;
+}
+
+#logo {
+    height: 75px;
+}
+a:hover{
+    color: red;
+    transition: 0.3s all;
+}
+
+#desconto{
+    border: 2px solid rgb(38, 0, 252);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#desconto:hover{
+    background-color: purple ;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin: auto 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+s{
+    color: red;
+}
+
+h2 {
+    color: red;
+}
